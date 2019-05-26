@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 
 namespace PiePizzaria2.Models
 {
-    public interface IPieServices
+    public interface IPieRepository
     {
 
         IEnumerable<Pie> GetAllPies();
 
         Pie GetPieById(int pieId);
+
+
     }
 }
